@@ -1,2 +1,3 @@
-# elias.sj-green.se
+# elias.sjögreen.se
+
 My personal website
