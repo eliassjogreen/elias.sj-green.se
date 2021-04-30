@@ -9,6 +9,7 @@ export { getStyleTag, virtualSheet } from "https://esm.sh/twind@0.16.13/sheets";
 
 export { FontAwesomeIcon } from "https://esm.sh/@fortawesome/react-fontawesome@0.1.14";
 export {
+  faDiscord,
   faGithub,
   faTwitter,
 } from "https://esm.sh/@fortawesome/free-brands-svg-icons@5.15.3";

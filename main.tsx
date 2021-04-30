@@ -1,4 +1,5 @@
 import {
+  faDiscord,
   faEnvelope,
   faGithub,
   faTwitter,
@@ -14,22 +15,26 @@ import { jsx } from "./util.ts";
 function Home() {
   return (
     <main
-      class={tw`h-screen flex items-center justify-center`}
+      className={tw
+        `h-screen flex items-center justify-center dark:(bg-black text-white)`}
     >
-      <div class={tw`px-4 py-4`}>
+      <div className={tw`px-4 py-4`}>
         <a href="/">
-          <h1 class={tw`mx-auto text-6xl`}>Elias Sjögreen</h1>
+          <h1 className={tw`mx-auto text-6xl`}>Elias Sjögreen</h1>
         </a>
 
-        <div class={tw`mt-4 flex justify-center space-x-4`}>
+        <div className={tw`mt-4 flex justify-center space-x-4`}>
           <a href="https://github.com/eliassjogreen">
-            <FontAwesomeIcon class={tw`h-10`} icon={faGithub} />
+            <FontAwesomeIcon className={tw`h-10`} icon={faGithub} />
+          </a>
+          <a href="https://discord.gg/5fpjPQZq4S">
+            <FontAwesomeIcon className={tw`h-10`} icon={faDiscord} />
           </a>
           <a href="https://twitter.com/eliassjogreen">
-            <FontAwesomeIcon class={tw`h-10`} icon={faTwitter} />
+            <FontAwesomeIcon className={tw`h-10`} icon={faTwitter} />
           </a>
           <a href="mailto:elias@xn--sjgreen-b1a.se">
-            <FontAwesomeIcon class={tw`h-10`} icon={faEnvelope} />
+            <FontAwesomeIcon className={tw`h-10`} icon={faEnvelope} />
           </a>
         </div>
       </div>
